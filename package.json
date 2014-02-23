@@ -1,0 +1,11 @@
+{
+  "name": "js-modules",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "mocha test/commonjs.js"
+  },
+  "dependencies": {
+      "mocha": "1.17.1",
+      "zombie": "latest"
+  }
+}
