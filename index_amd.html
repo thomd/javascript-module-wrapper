@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <body>
+    <div id="out"></div>
+    <script src="http://requirejs.org/docs/release/2.1.11/minified/require.js"></script>
+    <script>
+        require(['lib/math'], function(math){
+            document.getElementById('out').innerHTML = math.pi;
+        });
+    </script>
+  </body>
+</html>
+
