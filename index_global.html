@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
   <body>
+    <div id="out"></div>
     <script src="lib/math.js"></script>
     <script>
-      document.write(math.pi);
+      document.getElementById('out').innerHTML = math.pi;
     </script>
   </body>
 </html>

@@ -19,7 +19,9 @@ Tests are done with [Mocha](http://visionmedia.github.io/mocha/).
 
 Run all tests for AMD, CommonJS and Plain Javascript with
 
+    npm install
     make test
+
 
 
 
