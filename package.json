@@ -6,6 +6,7 @@
   },
   "dependencies": {
       "mocha": "1.17.1",
+      "connect": "2.13.0",
       "zombie": "latest"
   }
 }
