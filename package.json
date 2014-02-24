@@ -2,7 +2,7 @@
   "name": "js-module-wrapper",
   "version": "0.1.0",
   "scripts": {
-    "test": "mocha --reporter list"
+    "test": "./node_modules/mocha/bin/mocha --reporter list"
   },
   "dependencies": {
       "mocha": "1.17.1",
