@@ -2,6 +2,8 @@
 
 This is a little research project about using javascript modules.
 
+[![Build Status](https://travis-ci.org/thomd/javascript-module-wrapper.png)](https://travis-ci.org/thomd/javascript-module-wrapper)
+
 A universal module wrapper is wrapping your javascript library so it can work as
 
 1. **[CommonJS](http://www.commonjs.org/) module** (Implemented by [Node.js](http://wiki.thomd.net/index.php?title=Node.js), 
