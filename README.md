@@ -2,7 +2,7 @@
 
 This is a little research project about using javascript modules.
 
-[![Build Status](https://travis-ci.org/thomd/javascript-module-wrapper.png)](https://travis-ci.org/thomd/javascript-module-wrapper)
+[![Build Status](https://travis-ci.org/thomd/javascript-module-wrapper.svg?branch=master)](https://travis-ci.org/thomd/javascript-module-wrapper)
 
 A universal module wrapper is wrapping your javascript library so it can work as
 
