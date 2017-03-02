@@ -12,9 +12,11 @@ describe('Universal Module Wrapper', function(){
     describe('on Client side', function(){
 
         before(function(){
-            var http = require('http'), connect = require('connect'), Browser = require('zombie');
-            this.server = http.createServer(connect().use(connect.static(__dirname + '/..')));
-            this.server.listen(9876);
+            var http = require('http'), serveStatic = require('serve-static'), Browser = require('zombie');
+            var serve = serveStatic(__dirname + '/..')
+            this.server = http.createServer(function(req, res){
+              serve(req, res)
+            }).listen(9876);
             this.browser = new Browser({site: 'http://localhost:9876'});
         });
 
