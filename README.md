@@ -50,7 +50,7 @@ A universal module wrapper is wrapping your javascript library so it can work as
 
 ## Test
 
-Tests are done with [Mocha](http://visionmedia.github.io/mocha/) using
+Tests are done with [Mocha](http://mochajs.org/) using
 [Zombie](http://zombie.labnotes.org/).
 
 Run all tests for AMD, CommonJS and Plain Javascript with
